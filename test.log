@@ -1,0 +1,46 @@
+[HANDLER_VERBOSE_OUTPUT] 
+UpdateCTestConfiguration  from :C:/Users/luism/Documents/GitHub/QT-bug-report/Tests/build/Debug/DartConfiguration.tcl
+
+UpdateCTestConfiguration  from :C:/Users/luism/Documents/GitHub/QT-bug-report/Tests/build/Debug/DartConfiguration.tcl
+[HANDLER_OUTPUT] 
+Test project C:/Users/luism/Documents/GitHub/QT-bug-report/Tests/build/Debug
+
+[HANDLER_VERBOSE_OUTPUT] 
+Constructing a list of tests
+
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+[HANDLER_OUTPUT] 
+    Start 1: Tests
+
+[HANDLER_VERBOSE_OUTPUT] 
+
+1: Test command: C:\Users\luism\Documents\GitHub\QT-bug-report\Tests\build\Debug\Debug\Tests.exe
+
+1: Working Directory: C:/Users/luism/Documents/GitHub/QT-bug-report/Tests/build/Debug
+1: Test timeout computed to be: 5
+1: Running main() from C:\Users\luism\Documents\GitHub\QT-bug-report\Tests\build\Debug\_deps\googletest-src\googletest\src\gtest_main.cc
+1: [==========] Running 2 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 2 tests from Tests
+1: [ RUN      ] Tests.TestRepro
+1: This is a message[       OK ] Tests.TestRepro (0 ms)
+1: [ RUN      ] Tests.TestNoRepro
+1: This is a message
+1: [       OK ] Tests.TestNoRepro (0 ms)
+1: [----------] 2 tests from Tests (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 2 tests from 1 test suite ran. (1 ms total)
+1: [  PASSED  ] 2 tests.
+[HANDLER_OUTPUT] 
+1/1 Test #1: Tests ............................
+   Passed    1.84 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   1.94 sec
